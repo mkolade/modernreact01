@@ -2,7 +2,7 @@
 
 /** @type {import('tailwindcss').Config} */
 const config = {
-  purge: ["./index.html", "./src/**/*.{js,jsx}"],
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {
     extend: {

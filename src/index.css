@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
@@ -27,7 +31,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  color: transparent;
+  text-fill-color: transparent;
 }
 
 .bg-blue-gradient {
@@ -137,5 +141,6 @@
 
 .client-img:hover{
   transform: scale(1.2);
-  filter:brightness(100%);
+  filter:    brightness(100%) saturate(0%) invert(100%) !important;
+  transition: 0.4s ease-in-out;
 }
