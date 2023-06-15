@@ -1,6 +1,5 @@
 import { apple,bill,google } from "../assets"
-import styles,{layout} from "../style"
-
+import styles,{layout} from '../style'
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
@@ -19,8 +18,6 @@ const Billing = () => (
         <img src={google} alt="apple_bill" className='w-[128px] h-[42px] object-contain  cursor-pointer' />
       </div>
     </div>
-    
-    
   </section>
 )
 

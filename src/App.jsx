@@ -1,10 +1,7 @@
-import React from 'react'
 import styles from './style'
 
 /* Components */
 import  {Navbar,Billing,CardDeal,Business,Clients,CTA,Stats,Footer,Testimonials,Hero,} from './components'
-import Button from './components/Button'
-import FeedbackCard from './components/FeedbackCard'
 
 const App = () =>(
     <div className='bg-primary w-full overflow-hidden'>
