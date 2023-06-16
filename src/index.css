@@ -139,8 +139,9 @@
   filter: blur(750px);
 }
 
+
 .client-img:hover{
   transform: scale(1.2);
-  filter:    brightness(100%) saturate(0%) invert(100%) !important;
+  filter:    brightness(100%) saturate(0%) invert(100%) ;
   transition: 0.4s ease-in-out;
 }
